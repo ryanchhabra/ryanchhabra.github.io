@@ -34,6 +34,7 @@ body {
   text-shadow: 0 0 10px rgba(255, 105, 180, 0.7);
   opacity: 0;
   animation: popIn 1.5s ease-out 1s forwards, float 3s 2.5s ease-in-out infinite;
+  -webkit-animation: popIn 1.5s ease-out 1s forwards, float 3s 2.5s ease-in-out infinite;
   z-index: 20;
   pointer-events: none;
   text-align: center;
@@ -45,10 +46,12 @@ body {
 @keyframes popIn {
   0% {
     transform: translate(-50%, -50%) scale(0.8);
+    -webkit-transform: translate(-50%, -50%) scale(0.8);
     opacity: 0;
   }
   100% {
     transform: translate(-50%, -50%) scale(1);
+    -webkit-transform: translate(-50%, -50%) scale(1);
     opacity: 1;
   }
 }

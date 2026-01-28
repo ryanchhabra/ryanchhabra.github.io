@@ -1,9 +1,9 @@
-import photo1 from "../assets/photos/1.jpg";
+import photo1 from "../assets/photos/1.jpeg";
 import photo2 from "../assets/photos/2.jpeg";
 import photo3 from "../assets/photos/3.jpeg";
 import photo4 from "../assets/photos/4.jpeg";
 import photo5 from "../assets/photos/5.jpeg";
-import photo6 from "../assets/photos/6.jpg";
+import photo6 from "../assets/photos/6.jpeg";
 
 export type Memory = {
   title: string;

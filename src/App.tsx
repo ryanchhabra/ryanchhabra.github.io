@@ -131,10 +131,6 @@ export default function App() {
     };
   }, []);
 
-  const scrollToMemories = () => {
-    document.getElementById("memories")?.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <div className="relative z-0 min-h-screen bg-[#0b0205] text-white">
       {/* HERO */}
